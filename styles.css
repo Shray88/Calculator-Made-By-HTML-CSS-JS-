@@ -1,0 +1,65 @@
+/*-------Made By Shray Sagar--------*/
+body{
+    background-color: #c5c7c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a4452;
+    width: 350px;
+    height: 550px;
+    border-radius: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0 ,0 ,0,0.2 );
+}
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 5px;
+    padding: 10px;
+
+}
+#inputtext{
+    grid-column: span 4;
+    width: 300px;
+    height: 70px;
+    padding: 5px;
+    font-size: xxx-large;
+    font-style: oblique;
+
+    
+}
+button{
+    background-color: #9fd3c7;
+    border: 0;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    transform: translateY(-1px);
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255, 255,0.1),5px 5px 15px rgba(0 ,0 ,0,0.2 );
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #9fd3c7d3;
+    transform: translateY(1px);
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
+}
+#equal-btn:hover{
+    background-color: rgb(210, 96, 96);
+}
+/*-------Made By Shray Sagar--------*/
